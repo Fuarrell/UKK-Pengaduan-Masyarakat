@@ -1,0 +1,31 @@
+* {
+    margin:0;
+    font-family: 'Lexend';
+}
+
+.container {
+    width: 100%;
+    margin-top: 25px;
+    height: auto;
+}
+.container-height {
+    width: 85%;
+    margin: auto;
+    margin-top: 25px;
+    height: 400px;
+}
+
+@media screen and (max-width:440px) {
+    .navbar-brand{
+        font-size: 16px;
+    }
+}
+
+.container-height p {
+    margin: 10px;
+}
+
+.col-form-label::after{
+    content: '*';
+    color: red;
+}
